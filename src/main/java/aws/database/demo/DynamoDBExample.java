@@ -11,6 +11,7 @@ import software.amazon.awssdk.services.dynamodb.model.PutItemRequest;
 public class DynamoDBExample {
 
 	public static void main(String[] args) {
+		
 		DynamoDbClient client = DynamoDbClient.builder().build();
 
 		String tableName = "Employees";
